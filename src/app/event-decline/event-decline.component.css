@@ -1,0 +1,17 @@
+.invitation-container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff4500;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4500;
+}

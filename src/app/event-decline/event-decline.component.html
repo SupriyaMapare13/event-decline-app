@@ -1,0 +1,13 @@
+<div class="invitation-container">
+    <h1>{{ invitation.eventName }}</h1>
+    <p><strong>Event Date:</strong> {{ invitation.eventDate }}</p>
+    <p>{{ invitation.eventDetails }}</p>
+
+    <div *If="!declineStatus">
+        <button (click)="declineEvent()">Decline Invitation</button>
+    </div>
+
+    <div *If="declineStatus">
+        <p>{{ declineStatus }}</p>
+    </div>
+</div>
